@@ -1,0 +1,41 @@
+{
+  "name": "plot-bot",
+  "version": "1.0.0",
+  "description": "PLOT - Discord",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "setup": "node setup.js",
+    "deploy": "node deploy-commands.js",
+    "deploy-global": "node deploy-commands.js",
+    "deploy-guild": "node deploy-guild-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "moderation",
+    "tickets",
+    "giveaways"
+  ],
+  "author": "@deifault",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.19.0",
+    "@snazzah/davey": "^0.1.7",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.6.1",
+    "ffmpeg-static": "^5.2.0",
+    "fs": "^0.0.1-security",
+    "libsodium-wrappers": "^0.7.15",
+    "ms": "^2.1.3",
+    "path": "^0.12.7",
+    "sodium-native": "^5.0.9",
+    "sqlite3": "^5.1.6",
+    "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
